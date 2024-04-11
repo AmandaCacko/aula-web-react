@@ -1,13 +1,9 @@
 import './App.css'
-import ButtonFatec from './components/button-fatec'
+import Form from './components/form'
 
 function App() {  
   return (
-  <>
-    <p>mim de papai auuuuuuuuuuuuu</p> 
-    <ButtonFatec type='button' label='🐺'/>
-    <ButtonFatec type='button' label='🔈'/>
-  </>  
+    <Form></Form>  
   )
 }
 
